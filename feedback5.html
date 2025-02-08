@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farewell Feedback</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(145deg, #2b5876, #4e4376);
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      height: 90vh;
+      text-align: center;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-family: 'Montserrat', sans-serif;
+      background: -webkit-linear-gradient(45deg, #ff9a9e, #fad0c4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .feedback-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      overflow: auto;
+      max-height: 50%;
+      padding: 5px;
+    }
+
+    .feedback-box {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 15px;
+      border-radius: 12px;
+      height: 150px;
+      overflow-y: auto;
+      font-size: 1rem;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    .feedback-box::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .feedback-box::-webkit-scrollbar-thumb {
+      background-color: #ffffff60;
+      border-radius: 4px;
+    }
+
+    .image-gallery {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #dcdcdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>!!! Cameo Arakkanae !!!</h1>
+
+    <div class="feedback-section">
+      <div class="feedback-box">Legend of unit</div>
+      <div class="feedback-box">The kind and innovative one—always ready to help with a smile ! ✨</div>
+      <div class="feedback-box">Neenga epovumae santhamaga irukinga. Mass na.</div>
+      <div class="feedback-box">Anna neenga terror nenachaen but soft nature ...</div>
+      <div class="feedback-box">Very calm</div>
+      <div class="feedback-box">Elder brother from another mother who can we share everything. Trustable Understanding.well wisher.</div>
+      <div class="feedback-box">Rombo silent, avlova pesamaataru but correcta andha andha vellaiya seivaru. Nalla guide and support pannuvaru pa. Avlothaan Enakku theriyum. 👋😀</div>
+    </div>
+
+    <div class="image-gallery">
+      <img src="a1.jpg" alt="Memory 1">
+      <img src="a2.jpg" alt="Memory 2">
+      <img src="a3.jpg" alt="Memory 3">
+      <img src="a4.jpg" alt="Memory 4">
+    </div>
+
+    <footer>
+      <p>Created with ❤️ for unforgettable memories.</p>
+    </footer>
+  </div>
+</body>
+</html>

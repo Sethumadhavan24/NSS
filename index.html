@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Farewell Memories Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Farewell Memories</h1>
+      <p class="subtitle">Enter your unique password to unlock your personalized farewell feedback!</p>
+    </header>
+
+    <div class="login-box">
+      <input type="password" id="password" class="password-input" placeholder="Enter Password">
+      <button onclick="validatePassword()" class="submit-btn">Unlock Memories</button>
+    </div>
+
+    <footer>
+      <p>Celebrating Moments, Cherishing Memories 💖</p>
+    </footer>
+  </div>
+
+  <script>
+    function validatePassword() {
+      // Mapping of passwords to feedback pages
+      const passwordMapping = {
+        "LadyBoss25'": "feedback1.html",
+        "GoldenBoy25'": "feedback2.html",
+        "SarcasticBoy25'": "feedback3.html",
+        "JollyBoy25'": "feedback4.html",
+        "SilentBoy25'": "feedback5.html",
+        "UnoBoy25'": "feedback6.html",
+      };
+
+      const password = document.getElementById("password").value;
+      if (passwordMapping[password]) {
+        window.location.href = passwordMapping[password];
+      } else {
+        alert("Incorrect Password! Please try again.");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farewell Feedback</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(145deg, #2b5876, #4e4376);
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      height: 90vh;
+      text-align: center;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-family: 'Montserrat', sans-serif;
+      background: -webkit-linear-gradient(45deg, #ff9a9e, #fad0c4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .feedback-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      overflow: auto;
+      max-height: 50%;
+      padding: 5px;
+    }
+
+    .feedback-box {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 15px;
+      border-radius: 12px;
+      height: 150px;
+      overflow-y: auto;
+      font-size: 1rem;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    .feedback-box::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .feedback-box::-webkit-scrollbar-thumb {
+      background-color: #ffffff60;
+      border-radius: 4px;
+    }
+
+    .image-gallery {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #dcdcdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>!!! Sirippazhaganae !!!</h1>
+
+    <div class="feedback-section">
+      <div class="feedback-box">According to your face,I think you are very quite and calm.you did some works during camp which was for us.Thank you for your work that made us to felt comfortable.In camp days also you were not spoke with us.So,i cannot able to describe you.</div>
+      <div class="feedback-box">Joined late but blended in so smoothly, it’s like he was always part of the squad! 😎</div>
+      <div class="feedback-box">Hi Nani anna, neenga romba kind person ah irukkinga anna✨...seniors oda romba gel ah irukkinga✨ adhe pola enga koodayum irundha nalla irundhu irukkum but enga kooda romba silent ah irundhuttinga😅😂...Ungaloda romba attach aanadhe camp la dhaa....so so so much thanks for your caring anna🥰☺️✨🙏🏻...</div>
+      <div class="feedback-box">Unga pechin adimai na naanu. 🔥</div>
+      <div class="feedback-box">Nani anna ...neenga orate panradhu nalla irruku anna .</div>
+      <div class="feedback-box">Friendly</div>
+      <div class="feedback-box">Talented</div>
+      <div class="feedback-box">Ivara pathi sollanumna "Lateaa vandaalum latestaa pannaru". Vandhavaru sirappa nammala paathikinaaru. So sweet of him. Jolly aa irundhadhu. 😎😀🦋</div>
+    </div>
+
+    <div class="image-gallery">
+      <img src="n1.jpg" alt="Memory 1">
+      <img src="n2.jpg" alt="Memory 2">
+      <img src="n3.jpg" alt="Memory 3">
+      <img src="n4.jpg" alt="Memory 4">
+    </div>
+
+    <footer>
+      <p>Created with ❤️ for unforgettable memories.</p>
+    </footer>
+  </div>
+</body>
+</html>
